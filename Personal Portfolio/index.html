@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon"  href=".../icons8-user-male-96.png" style="border-radius: 20px;" />
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Samarth Mokashi</title>
+</head>
+
+<body>
+    <!-- header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="index.html" class="nav__logo">
+                <h3>Samarth Mokashi</h3>
+            </a>
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class="bx bx-home-alt"></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class="bx bx-user"></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="bx bx-book"></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#work" class="nav__link">
+                            <i class="bx bx-briefcase-alt-2"></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="bx bx-message-square-detail"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- social icons -->
+            <div class="nav__social">
+                <a href="https://www.linkedin.com/in/samarth-mokashi-3464522a9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="home__social-link">
+                    <i class='bx bxl-linkedin-square'></i>
+                </a>
+                <a href="https://github.com/samarth88github" class="home__social-link" target="_blank">
+                    <i class='bx bxl-github'></i>
+                </a>
+                
+                <a href="https://www.instagram.com/samarth_8888?igsh=MWxweXFsdmF4Z2txZg==" class="home__social-link" target="_blank">
+                    <i class='bx bxl-instagram'></i>
+                </a>
+                <!-- theme change button -->
+                <i class="bx bx-moon change-theme" id="theme-button"></i>
+            </div>
+
+
+
+        </nav>
+    </header>
+
+    <!-- main -->
+    <main class="main">
+        <!-- Home -->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <span class="home__greeting">Hello, this is</span>
+                    <h1 class="home__name">Samarth Mokashi</h1>
+                    <h2 class="home__education">Frontend Developer</h2>
+                    <div class="home__buttons">
+                        <a href="./sam-resume.pdf" target="_blank" class="button button--ghost">
+                            <p>Resume</p><i class='bx bxs-download'></i>
+                        </a>
+                        <a href="#about" class="button">
+                            About me
+                        </a>
+                    </div>
+                </div>
+
+                <div class="home__handle">
+                    <img src="./home.webp" alt="" class="home__img">
+                </div>
+
+            </div>
+        </section>
+
+        <!-- About -->
+        <section class="about section" id="about">
+            <span class="section__subtitle">My Intro</span>
+            <h2 class="section__title">About Me</h2>
+
+            <div class="about__container container grid">
+                <img src="./APFP.webp" alt="" class="about__img">
+
+                <div class="about__data">
+                    <div class="about__info">
+                        <div class="about__box">
+                            <i class='bx bx-award about__icon'></i>
+                            <h3 class="about__title">Experience</h3>
+                            <span class="about__subtitle">12 Months</span>
+                        </div>
+
+                        <div class="about__box">
+                            <i class='bx bx-briefcase-alt about__icon'></i>
+                            <h3 class="about__title">Completed</h3>
+                            <span class="about__subtitle">3+ Projects</span>
+                        </div>
+
+                        <div class="about__box">
+                            <i class='bx bxs-graduation about__icon'></i>
+                            <h3 class="about__title">Diploma</h3>
+                            <span class="about__subtitle">Computer Eng.</span>
+                        </div>
+                    </div>
+
+                    <p class="about__description">
+                        I am a 20-year-old front-end developer based in india, who is passionate about creating web
+                        applications with a great user experience. I
+                        enjoy building interactive and beautiful websites, prioritizing user happiness, accessibility,
+                        teamwork, and clean code.
+                        I am always eager to learn and contribute.
+                    </p>
+
+                    <a href="#contact" class="button">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="skills section" id="skills">
+            <span class="section__subtitle">My abilities</span>
+            <h2 class="section__title">My Experience</h2>
+
+            <div class="skills__container container grid">
+                <div class="skills__content">
+                    <h3 class="skills__title">Frontend Skills</h3>
+                    <div class="skills__box">
+                        <div class="skills__group">
+
+                            <div class="skills__data">
+                                <i class='bx bxl-html5'></i>
+                                <div>
+                                    <h3 class="skills__name">HTML</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxl-css3'></i>
+                                <div>
+                                    <h3 class="skills__name">CSS</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxl-javascript'></i>
+                                <div>
+                                    <h3 class="skills__name">Javascript</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skills__group">
+
+                            <div class="skills__data">
+                                <i class='bx bxl-typescript'></i>
+                                <div>
+                                    <h3 class="skills__name">Typescript</h3>
+                                    <span class="skills__level">Basic</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxl-react'></i>
+                                <div>
+                                    <h3 class="skills__name">React</h3>
+                                    <span class="skills__level">Basic</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxl-sass'></i>
+                                <div>
+                                    <h3 class="skills__name">Sass</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills__content">
+                    <h3 class="skills__title">Backend Skills</h3>
+                    <div class="skills__box">
+                        <div class="skills__group">
+
+                            <div class="skills__data">
+                                <i class='bx bxl-nodejs'></i>
+                                <div>
+                                    <h3 class="skills__name">Node JS</h3>
+                                    <span class="skills__level">Basic</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='b'><img src="./images/icons8-express-js.svg" alt="express"
+                                        style="width: 17px; font-weight: bolder;"></i>
+                                <div>
+                                    <h3 class="skills__name">Express</h3>
+                                    <span class="skills__level">Basic</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skills__group">
+
+                            <div class="skills__data">
+                                <i class='bx bxl-firebase'></i>
+                                <div>
+                                    <h3 class="skills__name">Firebase</h3>
+                                    <span class="skills__level">Basic</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx'><img src="./images/logo.svg" alt="appwrite" style="width: 13px;"></i>
+                                <div>
+                                    <h3 class="skills__name">Appwrite</h3>
+                                    <span class="skills__level">Basic</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills__content">
+                    <h3 class="skills__title">Other Skills</h3>
+                    <div class="skills__box">
+                        <div class="skills__group">
+
+                            <div class="skills__data">
+                                <i class='bx bxl-git'></i>
+                                <div>
+                                    <h3 class="skills__name">Git</h3>
+                                    <span class="skills__level">Basic</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-package'></i>
+                                <div>
+                                    <h3 class="skills__name">Npm</h3>
+                                    <span class="skills__level">Package manager</span>
+                                </div>
+                            </div>
+
+                            <!-- <div class="skills__data">
+                                <i class='bx bxs-universal-access'></i>
+                                <div>
+                                    <h3 class="skills__name">Web A11y</h3>
+                                    <span class="skills__level">Accessibility basic</span>
+                                </div>
+                            </div> -->
+                        </div>
+
+                        <div class="skills__group">
+
+                            <div class="skills__data">
+                                <i class='bx bx-wrench'></i>
+                                <div>
+                                    <h3 class="skills__name">Dev. Tools</h3>
+                                    <span class="skills__level">Browser dev. tools</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxl-adobe'></i>
+                                <div>
+                                    <h3 class="skills__name">After Effects</h3>
+                                    <span class="skills__level">Motion design</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Work -->
+        <section class="work section" id="work">
+            <span class="section__subtitle">My Portfolio</span>
+            <h2 class="section__title">Projects</h2>
+
+            <div class="work__filters">
+                <span class="work__item active-work" data-filter="all">All</span>
+                <span class="work__item" data-filter=".basic">Basic</span>
+                <span class="work__item" data-filter=".advance">Advance</span>
+                <span class="work__item" data-filter=".design">Design</span>
+            </div>
+
+            <div class="work__container container grid">
+                <div class="work__card mix advance">
+                    <img src="./images/amazon-clone.webp" class="work__img" alt="">
+
+                    <h3 class="work__title">Amazon Clone [Not live]</h3>
+                    <p class="work__info">Amazon e-commerce clone made using react js, material ui, firebase,
+                        strip-payments</p>
+                    <div class="link-container">
+                        <a href="" class="work__button not-allowed">
+                            Live Site<i class="bx bx-right-arrow-alt work__icon"></i>
+                        </a>
+                        <a href="https://github.com/ShubhamAdelkar/amazon-clone" target="_blank" class="work__button">
+                            Github<i class="bx bx-right-arrow-alt work__icon"></i>
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="work__card mix advance">
+                    <img src="./images/social-app.webp" class="work__img" alt="social-media-app">
+
+                    <h3 class="work__title">Photto. [beta]</h3>
+                    <p class="work__info">Social media full stack app using React + Vite + Typescript, Appwrite as
+                        Backend.</p>
+                    <div class="link-container">
+                        <a href="https://socialapp-imbachhu.vercel.app/" class="work__button" target="_blank">
+                            Live Site<i class="bx bx-right-arrow-alt work__icon"></i>
+                        </a>
+                        <a href="https://github.com/ShubhamAdelkar/social-app" class="work__button" target="_blank">
+                            Github<i class="bx bx-right-arrow-alt work__icon"></i>
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="work__card mix design">
+                    <img src="./images/cloudice.webp" class="work__img" alt="">
+
+                    <h3 class="work__title">Cloudice [Front-end] ⭐</h3>
+                    <p class="work__info">Cloudice - front-end landing page made using html, css & javascript. UI/UX -
+                        Web design. </p>
+                    <div class="link-container">
+                        <a href="https://cloudice-byimbachhu.netlify.app/" class="work__button" target="_blank">
+                            Live Site <i class="bx bx-right-arrow-alt work__icon"></i>
+                        </a>
+                        <a href="https://github.com/ShubhamAdelkar/Cloudice" class="work__button" target="_blank">
+                            Github <i class="bx bx-right-arrow-alt work__icon"></i>
+                        </a>
+                    </div>
+
+
+                </div>
+
+                <div class="work__card mix basic">
+                    <img src="./images/rock-paper-scissors.webp" class="work__img" alt="">
+
+                    <h3 class="work__title">Rock Paper Scissors ✊</h3>
+                    <p class="work__info">A web-based Rock, Paper, Scissors game implemented in JavaScript. Play
+                        against
+                        a computer opponent.</p>
+                    <div class="link-container">
+                        <a href="https://rock-paper-scissors-beta.netlify.app/" target="_blank" class="work__button">
+                            Live Site<i class="bx bx-right-arrow-alt work__icon"></i>
+                        </a>
+                        <a href="https://github.com/ShubhamAdelkar/rock-paper-scissors-beta" target="_blank"
+                            class="work__button">
+                            Github<i class="bx bx-right-arrow-alt work__icon"></i>
+                        </a>
+                    </div>
+
+                </div>
+
+                <!-- <div class="work__card mix advance">
+                    <img src="./images/meme-generator.webp" class="work__img" alt="">
+
+                    <h3 class="work__title">Meme Generator [beta]</h3>
+                    <p class="work__info">A meme generator app using react technology, taught by scrimba.</p>
+                    <div class="link-container">
+                        <a href="https://memegenerator-byshubham.netlify.app/" target="_blank" class="work__button">
+                            Live Site<i class="bx bx-right-arrow-alt work__icon"></i>
+                        </a>
+                        <a href="https://github.com/ShubhamAdelkar/meme-generator-react" target="_blank"
+                            class="work__button">
+                            Github<i class="bx bx-right-arrow-alt work__icon"></i>
+                        </a>
+                    </div>
+
+                </div> -->
+
+                <div class="work__card mix basic">
+                    <img src="./images/ios-calculator.webp" class="work__img" alt="">
+
+                    <h3 class="work__title">IOS Calculator</h3>
+                    <p class="work__info">iOS-Calculator is a basic web-based calculator application.</p>
+                    <div class="link-container">
+                        <a href="https://ioscalculator-js.netlify.app/" target="_blank" class="work__button">
+                            Live Site<i class="bx bx-right-arrow-alt work__icon"></i>
+                        </a>
+                        <a href="https://ioscalculator-js.netlify.app/" target="_blank" class="work__button">
+                            Github<i class="bx bx-right-arrow-alt work__icon"></i>
+                        </a>
+                    </div>
+
+                </div>
+
+                <!-- <div class="work__card mix design">
+                    <img src="./images/summary-design.webp" class="work__img" alt="">
+
+                    <h3 class="work__title">Result Design</h3>
+                    <p class="work__info">Design commponent coding challenge</p>
+
+                    <a href="https://result-summary-fontend-challenge.netlify.app/" target="_blank"
+                        class="work__button">
+                        Demo <i class="bx bx-right-arrow-alt work__icon"></i>
+                    </a>
+                </div>
+
+                <div class="work__card mix basic">
+                    <img src="./images/color-changer.webp" class="work__img" alt="">
+
+                    <h3 class="work__title">Color Changer</h3>
+                    <p class="work__info">Random color changer - JS</p>
+
+                    <a href="https://colorchanger-imbachhu.netlify.app/" target="_blank" class="work__button">
+                        Live Site <i class="bx bx-right-arrow-alt work__icon"></i>
+                    </a>
+                </div> -->
+
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="contact section" id="contact">
+            <span class="section__subtitle">Get in touch</span>
+            <h2 class="section__title">Contact Me</h2>
+
+            <div class="contact__container container grid">
+                <div class="container__content">
+                    <h3 class="contact__title">Talk to me</h3>
+
+                    <div class="contact__info">
+
+                        <div class="contact___card">
+                            <i class="bx bx-mail-send contact__card-icon"></i>
+                            <h3 class="contact__card-title">Email</h3>
+                            <span class="contact__card-data">samarthmokashi41@gmail.com</span>
+                            <a href="mailto:samarthmokashi41@gmail.com" target="_blank" class="contact__button">Write me
+                                <i class="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                        </div>
+
+                        <div class="contact___card">
+                            <i class="bx bxl-whatsapp contact__card-icon"></i>
+                            <h3 class="contact__card-title">Whatsapp</h3>
+                            <span class="contact__card-data">9607014089</span>
+                            <a href="https://api.whatsapp.com/send?phone=9607014089&text=Hello, more information!"
+                                target="_blank" class="contact__button">Text me
+                                <i class="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container__content">
+                    <h3 class="contact__title">Write me your message</h3>
+
+                    <form action="/" method="post" class="contact__form">
+                        <div class="contact__form-div">
+                            <label for="name" class="contact__form-tag">Name</label>
+                            <input type="text" placeholder='Type your name' class="contact__form-input" id="name"
+                                name="name" autocomplete="name">
+                        </div>
+
+                        <div class="contact__form-div">
+                            <label for="email" class="contact__form-tag">Mail</label>
+                            <input type="email" class="contact__form-input" placeholder="Type your e-mail" id="email"
+                                name="email" autocomplete="email">
+                        </div>
+
+                        <div class="contact__form-div contact__form-area">
+                            <label for="message" class="contact__form-tag">Message</label>
+                            <textarea name="" id="message" cols="30" rows="10" class="contact__form-input textarea"
+                                placeholder="Type your message" name="message" autocomplete="off"></textarea>
+                        </div>
+
+                        <button class="contact__form-button button send-message submit" type="submit"
+                            value="send-message">Send
+                            Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="footer__container container">
+            <h1 class="footer__title">Samarth Mokashi</h1>
+
+            <ul class="footer__list">
+                <li>
+                    <a href="#about" class="footer__link">About</a>
+                </li>
+                <li>
+                    <a href="#work" class="footer__link">Projects</a>
+                </li>
+                <li>
+                    <a href="#contact" class="footer__link">Contact</a>
+                </li>
+            </ul>
+
+            <ul class="footer__social">
+                <a href="https://instagram.com/imbachhu" target="_blank" class="footer__social-link">
+                    <i class="bx bxl-instagram"></i>
+                </a>
+
+                <a href="https://twitter.com/imbachhu" target="_blank" class="footer__social-link">
+                    <i class="bx bxl-twitter"></i>
+                </a>
+            </ul>
+            <span class="footer__copy">
+                &#169; 2023-2024 - Shubham. All rights reserved.
+            </span>
+        </div>
+    </footer>
+
+    <!-- scrollreveal -->
+    <script src="./scrollreveal.min.js"></script>
+
+    <!-- mixitup js -->
+    <script src="mixitup.min.js"></script>
+
+    <!-- main js -->
+    <script src="app.js"></script>
+</body>
+
+</html>
